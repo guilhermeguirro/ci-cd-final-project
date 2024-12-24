@@ -6,7 +6,7 @@ metadata:
 spec:
   description: This task will clean up a workspace by deleting all the files.
   workspaces:
-    - name: o
+    - name: source
   steps:
     - name: remove
       image: alpine:3
